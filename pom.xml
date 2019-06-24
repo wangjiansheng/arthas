@@ -2,11 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
+   <!-- <parent>
         <groupId>org.sonatype.oss</groupId>
         <artifactId>oss-parent</artifactId>
         <version>9</version>
-    </parent>
+        <relativePath>oss-parent.xml</relativePath>
+    </parent>-->
 
     <licenses>
         <license>
@@ -16,11 +17,11 @@
         </license>
     </licenses>
 
-    <scm>
+   <!-- <scm>
         <connection>scm:git:git@github.com:alibaba/arthas.git</connection>
         <developerConnection>scm:git:git@github.com:alibaba/arthas.git</developerConnection>
         <url>https://github.com/alibaba/arthas</url>
-    </scm>
+    </scm>-->
 
     <developers>
         <developer>
